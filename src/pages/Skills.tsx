@@ -68,23 +68,23 @@ const Skills: React.FC = () => {
           <div className="space-y-8">
             {[
               {
-                degree: 'Master of Computer Science',
-                institution: 'Stanford University',
-                years: '2018 - 2020',
-                description: 'Specialized in Machine Learning and Distributed Systems with honors.'
+                degree: 'Bachelor of Engineering in Artificial Intelligence and Data Science',
+                institution: 'SIES GST',
+                years: '2023 - 2027',
+                description: 'Currently pursuing a degree with a focus on AI and Data Science.'
               },
-              {
-                degree: 'Bachelor of Computer Science',
-                institution: 'MIT',
-                years: '2014 - 2018',
-                description: 'Graduated with high distinction, focusing on Software Engineering and Algorithms.'
-              },
-              {
-                degree: 'Web Development Bootcamp',
-                institution: 'Coding Academy',
-                years: '2013 - 2014',
-                description: 'Intensive full-stack web development program with real-world projects.'
-              }
+              // {
+              //   degree: 'Bachelor of Computer Science',
+              //   institution: 'MIT',
+              //   years: '2014 - 2018',
+              //   description: 'Graduated with high distinction, focusing on Software Engineering and Algorithms.'
+              // },
+              // {
+              //   degree: 'Web Development Bootcamp',
+              //   institution: 'Coding Academy',
+              //   years: '2013 - 2014',
+              //   description: 'Intensive full-stack web development program with real-world projects.'
+              // }
             ].map((education, index) => (
               <div 
                 key={index}
@@ -110,22 +110,22 @@ const Skills: React.FC = () => {
           <div className="space-y-8">
             {[
               {
-                position: 'Senior Full Stack Developer',
-                company: 'Tech Innovations Inc.',
-                years: '2020 - Present',
-                description: 'Leading development of enterprise applications with React, Node.js, and AWS.'
+                position: 'App developer intern',
+                company: 'Change Network',
+                years: 'Jan 2025 - Present',
+                description: 'Currently working on a project to develop a mobile application for a user management system.'
               },
               {
-                position: 'Frontend Developer',
-                company: 'Digital Solutions Ltd.',
-                years: '2018 - 2020',
-                description: 'Developed responsive web applications and implemented UX improvements.'
+                position: 'Cyber Security Intern',
+                company: 'PODS Technologies',
+                years: 'June 2024 - July 2024',
+                description: 'Burner phone for security and privacy testing.'
               },
               {
-                position: 'Junior Web Developer',
-                company: 'Startup Hub',
-                years: '2016 - 2018',
-                description: 'Built and maintained client websites and e-commerce platforms.'
+                position: 'Operation Manager ',
+                company: 'SIES GST',
+                years: 'Jun 2024 - May 2025',
+                description: 'Managing operations and logistics for college events and activities.'
               }
             ].map((experience, index) => (
               <div 

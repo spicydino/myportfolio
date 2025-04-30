@@ -26,8 +26,8 @@
     "description": "Personal portfolio website showcasing projects and skills with animation effects.",
     "image": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     "technologies": ["React", "Tailwind CSS", "Framer Motion", "Vite"],
-    "demoUrl": "https://example.com/demo3",
-    "githubUrl": "https://github.com/example/project3",
+    "demoUrl": "https://my-portfolio-xi-mocha-17.vercel.app/",
+    "githubUrl": "https://github.com/spicydino/myportfolio",
     "category": "web"
   },
   {
