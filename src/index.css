@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #00A3E1;
+  --secondary: #F26B38;
+  --accent-purple: #BD34FE;
+  --accent-green: #00FFBF;
+  --dark-100: #1E1E1E;
+  --dark-200: #181818;
+  --dark-300: #101010;
+}
+
+html {
+  scroll-behavior: smooth;
+  cursor: none;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--dark-300);
+  color: #fff;
+  overflow-x: hidden;
+}
+
+a, button, input, textarea {
+  cursor: none;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark-200);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-purple);
+}
+
+@layer components {
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-8 relative inline-block;
+  }
+  
+  .section-title:after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-16 h-1 bg-primary;
+  }
+
+  .progress-bar {
+    @apply h-2 rounded-full bg-dark-100 overflow-hidden;
+  }
+  
+  .progress-bar-fill {
+    @apply h-full bg-gradient-to-r from-primary to-accent-purple transition-all duration-1000;
+  }
+  
+  .glassmorphism {
+    @apply bg-dark-100/40 backdrop-blur-md border border-gray-700/30 rounded-lg;
+  }
+
+  .nav-link {
+    @apply flex items-center justify-center p-3 rounded-full transition-all duration-300 hover:bg-primary/20 hover:text-primary relative;
+  }
+
+  .nav-link.active {
+    @apply bg-primary text-white;
+  }
+
+  .input-field {
+    @apply w-full bg-dark-100/50 border border-gray-700/50 rounded-lg px-4 py-3 text-white placeholder:text-gray-400 focus:outline-none focus:border-primary/50 transition-all duration-300;
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 bg-gradient-to-r from-primary to-accent-purple text-white font-medium rounded-lg transition-all duration-300 hover:opacity-90 hover:scale-105 hover:shadow-lg hover:shadow-primary/20;
+  }
+
+  .btn-outline {
+    @apply px-6 py-3 border border-primary/50 text-white font-medium rounded-lg transition-all duration-300 hover:bg-primary/10 hover:border-primary;
+  }
+}
+
+/* Animated Background Gradient */
+.bg-animated {
+  background: linear-gradient(-45deg, #00A3E1, #BD34FE, #00FFBF, #F26B38);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

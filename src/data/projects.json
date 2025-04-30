@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "title": "DefuseTheQuiz - Valorant Quiz App",
+    "description": "A fun and interactive quiz app for Valorant fans to test their knowledge about the game.",
+    "image": "https://images.pexels.com/photos/5076516/pexels-photo-5076516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "technologies": ["React", "Node.js", "MongoDB", "Express"],
+    "demoUrl": "https://github.com/spicydino/DefuseTheQuiz",
+    "githubUrl": "https://github.com/spicydino/DefuseTheQuiz",
+    "category": "web"
+  },
+  {
+    "id": 2,
+    "title": "BinIT - Waste Management App",
+
+    "description": "A mobile app for waste management of Mumbai, allowing users to report waste issues and track collection schedules.",
+    "image": "https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "technologies": ["Flutter", "Firebase", "Material UI", "Dart"],
+    "demoUrl": "https://github.com/spicydino/BinIt_SantoorDads_ByteCamp2025",
+    "githubUrl": "https://github.com/spicydino/BinIt_SantoorDads_ByteCamp2025",
+    "category": "mobile app"
+  },
+  {
+    "id": 3,
+    "title": "Portfolio Website",
+    "description": "Personal portfolio website showcasing projects and skills with animation effects.",
+    "image": "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "technologies": ["React", "Tailwind CSS", "Framer Motion", "Vite"],
+    "demoUrl": "https://example.com/demo3",
+    "githubUrl": "https://github.com/example/project3",
+    "category": "web"
+  },
+  {
+    "id": 4,
+    "title": "Fitness Tracker App",
+    "description": "Mobile app for tracking workouts, nutrition, and health metrics with data visualization.",
+    "image": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "technologies": ["React Native", "Redux", "Node.js", "MongoDB"],
+    "demoUrl": "https://example.com/demo4",
+    "githubUrl": "https://github.com/example/project4",
+    "category": "mobile app"
+  }
+]

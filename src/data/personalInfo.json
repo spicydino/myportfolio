@@ -1,0 +1,44 @@
+{
+  "name": "Aditya Koparkar",
+  "role": "App Developer",
+  "aboutMe": "I code. I manage. I dream big. I'm all about innovation and collaborating with awesome people to create something amazing. From Android apps to managing tech teams, I’m here for it all!",
+  "personalInfo": {
+    "firstName": "Aditya",
+    "lastName": "Koparkar",
+    "email": "02adityakoparkar@gmail.com",
+    "phone": "+91 8591487076",
+    "address": "Navi Mumbai, India",
+    "languages": ["English", "Hindi", "Marathi"],
+    "hobbies": ["Coding", "Reading", "Traveling"],
+    "nationality": "Indian",
+    "age": 19,
+    "freelance": true
+  },
+  "socialLinks": [
+    {
+      "id": 1,
+      "name": "GitHub",
+      "url": "https://github.com/spicydino",
+      "icon": "github"
+    },
+    {
+      "id": 2,
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/aditya-koparkar-68a5232a7/",
+      "icon": "linkedin"
+    },
+    {
+      "id": 3,
+      "name": "Twitter",
+      "url": "https://x.com/spicydinox",
+      "icon": "twitter"
+    },
+    {
+      "id": 4,
+      "name": "Instagram",
+      "url": "https://www.instagram.com/addyrenaline/?hl=en",
+      "icon": "instagram"
+    }
+  ],
+  "resumeUrl": "./Resume-Aditya.pdf"
+}

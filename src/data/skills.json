@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "HTML",
+    "icon": "html",
+    "percentage": 95
+  },
+  {
+    "id": 2,
+    "name": "Dart",
+    "icon": "dart",
+    "percentage": 90
+  },
+  {
+    "id": 3,
+    "name": "JavaScript",
+    "icon": "javascript",
+    "percentage": 80
+  },
+  {
+    "id": 4,
+    "name": "React",
+    "icon": "react",
+    "percentage": 80
+  },
+  {
+    "id": 5,
+    "name": "Node.js",
+    "icon": "node",
+    "percentage": 70
+  },
+  {
+    "id": 6,
+    "name": "TypeScript",
+    "icon": "typescript",
+    "percentage": 70
+  },
+  {
+    "id": 7,
+    "name": "MongoDB",
+    "icon": "mongodb",
+    "percentage": 65
+  },
+  {
+    "id": 8,
+    "name": "Express",
+    "icon": "express",
+    "percentage": 75
+  },
+  {
+    "id": 9,
+    "name": "Git",
+    "icon": "git",
+    "percentage": 85
+  },
+  {
+    "id": 10,
+    "name": "Figma",
+    "icon": "figma",
+    "percentage": 60
+  }
+]
