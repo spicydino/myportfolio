@@ -32,10 +32,10 @@
   },
   {
     "id": 4,
-    "title": "Fitness Tracker App",
-    "description": "Mobile app for tracking workouts, nutrition, and health metrics with data visualization.",
+    "title": "Global Gazzete - News App",
+    "description": "A news app that provides the latest news articles from various sources, allowing users to stay updated.",
     "image": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "technologies": ["React Native", "Redux", "Node.js", "MongoDB"],
+    "technologies": ["Flutter", "Firebase", "Material UI", "Dart"],
     "demoUrl": "https://example.com/demo4",
     "githubUrl": "https://github.com/example/project4",
     "category": "mobile app"
